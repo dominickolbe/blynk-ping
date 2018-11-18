@@ -1,0 +1,11 @@
+{
+  "name": "blynk-ping",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "blynk-library": "^0.5.3",
+    "dotenv": "^6.1.0",
+    "ping": "^0.2.2"
+  }
+}
