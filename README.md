@@ -28,7 +28,7 @@ pm2 start pm2.json
 
 ### Screenshot Blynk dashboard
 
-![Alt text](screenshot.jpg?raw=true "Screenshot")
+<img src="screenshot.jpg" width="300">
 
 ## License
 
