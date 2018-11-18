@@ -26,6 +26,10 @@ node index.js
 pm2 start pm2.json
 ```
 
+### Screenshot Blynk dashboard
+
+![Alt text](screenshot.jpg?raw=true "Screenshot")
+
 ## License
 
 MIT License - 2018 - [Dominic Kolbe](https://dominickolbe.dk)
