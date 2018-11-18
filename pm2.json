@@ -1,0 +1,11 @@
+{
+  "apps": [
+    {
+      "name": "blynk-ping",
+      "script": "./index.js",
+      "watch": false,
+      "env": {
+      }
+    }
+  ]
+}
