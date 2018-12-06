@@ -11,21 +11,23 @@ const blynk = new Blynk.Blynk(process.env.TOKEN, {
     port: process.env.PORT,
   })
 });
-const v0 = new blynk.VirtualPin(0);
+
+const PIN_PING = new blynk.VirtualPin(0);
 
 const testPing = () => {
   ping.promise.probe(process.env.PING_IP).then(res => {
     const ping = res.time || null;
     console.log(`Ping: ${ping} ms`);
-    v0.write(ping);
+    PIN_PING.write(ping);
   });
 };
 
 blynk.on('connect', () => {
-  console.log("Blynk ready.");
+  console.log('Blynk ready.');
   setInterval(testPing, 1000);
 });
 
 blynk.on('disconnect', () => {
-  console.log("DISCONNECT");
+  console.log('DISCONNECT');
+  return process.exit(1);
 });
