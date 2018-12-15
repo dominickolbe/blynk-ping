@@ -12,7 +12,7 @@ const blynk = new Blynk.Blynk(process.env.TOKEN, {
   })
 });
 
-const PIN_PING = new blynk.VirtualPin(0);
+const PIN_PING = new blynk.VirtualPin(process.env.PIN_PING);
 
 const testPing = () => {
   ping.promise.probe(process.env.PING_IP).then(res => {

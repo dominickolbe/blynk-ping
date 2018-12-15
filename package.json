@@ -2,6 +2,12 @@
   "name": "blynk-ping",
   "version": "1.0.0",
   "main": "index.js",
+  "author": "Dominic Kolbe <kolbedominic@gmail.com>",
+  "homepage": "https://github.com/dominickolbe/blynk-ping",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dominickolbe/blynk-ping"
+  },
   "license": "MIT",
   "dependencies": {
     "blynk-library": "^0.5.3",

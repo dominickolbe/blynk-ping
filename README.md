@@ -30,6 +30,14 @@ pm2 start pm2.json
 
 <img src="screenshot.jpg" width="300">
 
+___
+
+### Useful Blynk usage
+
+- [Monitor your download and upload speed within blynk](https://github.com/dominickolbe/blynk-speed)
+
+___
+
 ## License
 
 MIT License - 2018 - [Dominic Kolbe](https://dominickolbe.dk)
