@@ -34,7 +34,7 @@ ___
 
 ### Useful Blynk usage
 
-- [Monitor your download and upload speed within blynk](https://github.com/dominickolbe/blynk-speed)
+- [Monitor your download and upload speed](https://github.com/dominickolbe/blynk-speed)
 
 ___
 
